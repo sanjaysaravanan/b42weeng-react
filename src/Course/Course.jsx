@@ -44,7 +44,7 @@ function Course({
       >
         {category}
       </div>
-      <h3>{title}</h3>
+      <h3 className='bg-primary' >{title}</h3>
       Lang: {lang} Enrolled: {enrolled} ProgLang: {progLang}
       <br />
       {enrollment ? (

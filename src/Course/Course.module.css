@@ -3,13 +3,23 @@
   width: 200px;
   border: 1px solid;
   padding: 10px;
-  margin: 10px
+  margin: 10px;
+  transition: all 250ms ease;
+}
+
+.root:hover {
+  transform: translateY(-10px);
+}
+
+.root:hover>.btn {
+  opacity: 1;
 }
 
 .btn {
   font-size: 24px;
   color: white;
   margin: 10px;
+  opacity: 0.5;
 }
 
 .enrollBtn {
