@@ -165,7 +165,7 @@ export function ColorList() {
         onSubmit={(event) => {
           event.preventDefault();
           const data = {};
-          Array.from(event.target.elements).map((element) => {
+          Array.from(event.target.elements).forEach((element) => {
             if (element.nodeName === 'INPUT') {
               data[element.name] = element.value;
             }
