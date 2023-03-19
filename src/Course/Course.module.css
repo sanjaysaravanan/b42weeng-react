@@ -3,7 +3,21 @@
   width: 200px;
   border: 1px solid;
   padding: 10px;
+  margin: 10px
+}
+
+.btn {
+  font-size: 24px;
+  color: white;
   margin: 10px;
+}
+
+.enrollBtn {
+  background-color: blue;
+}
+
+.leaveBtn {
+  background-color: red;
 }
 
 img {
@@ -12,17 +26,17 @@ img {
   margin-bottom: 4px;
 }
 
-.cat-div {
+.catDiv {
   padding: 4px;
   border-radius: 5px;
   font-size: 24px;
   display: inline;
 }
 
-.cat-free {
+.catFree {
   background-color: blue;
 }
 
-.cat-premium {
+.catPremium {
   background-color: orangered;
 }

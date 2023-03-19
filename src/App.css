@@ -3,6 +3,10 @@
   display: flex;
 }
 
+.root {
+  background-color: #0055ff;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
